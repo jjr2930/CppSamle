@@ -17,7 +17,7 @@ d : 오른쪽으로 움직이기<br>
 - ObjectManager : 모든 게임오브젝트를 관리한다.
 - Entity : Component가 가르킬 소속에 대한 정보
 - Conmponent : 무슨 일을 할지에 대한 정의가 있는 부품들의 base class
-
+- game.json : 게임이 어떻게 구성되어 있는지에 대한 설명서
 
 # 클래스 다이어그램 <br>
 <img src = "https://github.com/jjr2930/CppSample/blob/main/ReadmeResources/ClassDiagram.png?raw=true"/>
