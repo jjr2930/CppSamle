@@ -1,0 +1,96 @@
+{
+  "prefabs": [
+    {
+      "name": "Poo",
+      "elements": [
+        {
+          "type": "PooTransform",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "type": "Renderer",
+          "what": "*"
+        },
+        {
+          "type": "Collider"
+        }
+      ]
+    },
+    {
+      "name": "Player",
+      "elements": [
+        {
+          "type": "PlayerTransform",
+          "x": 20,
+          "y": 20
+        },
+        {
+          "type": "Collider"
+        },
+        {
+          "type": "ColliderChecker"
+        },
+        {
+          "type": "Renderer",
+          "what": "P"
+        }
+      ]
+    },
+    {
+      "name": "FrameRenderer",
+      "elements": [
+        {
+          "type": "FrameRenderer",
+          "what": "#"
+        }
+      ]
+    },
+    {
+      "name": "ScoreCounter",
+      "elements": [
+        {
+          "type": "ScoreCounter"
+        },
+        {
+          "type": "ScoreRenderer"
+        }
+      ]
+    },
+    {
+      "name": "PooSpawner",
+      "elements": [
+        {
+          "type": "PooSpawner"
+        }
+      ]
+    },
+    {
+      "name": "GameStateController",
+      "elements": [
+        {
+          "type": "GameStateController"
+        }
+      ]
+    },
+    {
+      "name": "GuideTextDrawer",
+      "elements": [
+        {
+          "type": "Renderer",
+          "what": "a : left move, d : right move, do not collide (*)",
+          "x": 0,
+          "y": 25
+        }
+      ]
+    }
+  ],
+  "gameSceneObjects": [
+    "ScoreCounter",
+    "FrameRenderer",
+    "PooSpawner",
+    "Player",
+    "GameStateController",
+    "GuideTextDrawer"
+  ]
+}
