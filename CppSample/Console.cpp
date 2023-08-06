@@ -14,7 +14,7 @@ SINGLETON_IMPLIMETATION(Console)
 	
 	GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
 	consoleWidth = csbi.srWindow.Right - csbi.srWindow.Left + 1;
-	consoleHeight = csbi.srWindow.Bottom - csbi.srWindow.Top + 1;
+	consoleHeight = csbi.srWindow.Bottom - csbi.srWindow.Top;
 
 	//끝자리에 문자열 마감문자 \0을 넣어주기 위해 스크린 크기 보다 1개 더 키운다.
 	auto pixelSize = sizeof(char) * consoleHeight * consoleWidth + 1;
