@@ -20,5 +20,8 @@ d : 오른쪽으로 움직이기<br>
   - Conmponent : 무슨 일을 할지에 대한 정의가 있는 부품들의 base class
   - game.json : 게임이 어떻게 구성되어 있는지에 대한 설명서, 이 json의 변경을 통해 게임 구성을 변경할 수 있다.
 
+# 컴포넌트들의 대화 방법(이벤트 프로그래밍)
+<img src="https://github.com/jjr2930/CppSample/blob/main/ReadmeResources/%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.gif?raw=true"/>
+
 # 클래스 다이어그램 <br>
 <img src = "https://github.com/jjr2930/CppSample/blob/main/ReadmeResources/ClassDiagram.png?raw=true"/>
