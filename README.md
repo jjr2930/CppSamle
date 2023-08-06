@@ -24,3 +24,6 @@ d : 오른쪽으로 움직이기<br>
 
 # 클래스 다이어그램 <br>
 <img src = "https://github.com/jjr2930/CppSample/blob/main/ReadmeResources/ClassDiagram.png?raw=true"/>
+
+# 실행파일 다운로드
+<a href = "https://github.com/jjr2930/CppSample/releases/download/v1.0.0/Release.zip"> 클릭하세요 </a>
